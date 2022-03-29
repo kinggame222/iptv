@@ -8,5 +8,10 @@
     text-align: center;
 }
 body{
-    background: radial-gradient(circle at 100%, #333, #333 50%, #eee 75%, #333 75%);
+    background: radial-gradient(circle at 100%, #222, #333 50%, #666 75%);
+    color: white;
+    font-family: "Myriad Pro", Myriad, "Liberation Sans", "Nimbus Sans L", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+h1{
+    font-weight: bold;
 }
