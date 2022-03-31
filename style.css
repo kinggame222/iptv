@@ -24,13 +24,11 @@ ul {
     justify-content: space-between;
 }
 
+/*barre haut*/
 .barre-haut li a {
     color: white;
     text-decoration: none;
     text-align: center;
-}
-
-li a {
     font-size: 30px;
     font-weight: bold;
 }
