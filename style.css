@@ -3,12 +3,33 @@
     color: white;
     text-align: center;
 }
-body{
+
+body, html {
     background: radial-gradient(circle at 100%, #222, #333 50%, #666 75%);
     color: white;
     font-family: "Myriad Pro", Myriad, "Liberation Sans", "Nimbus Sans L", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
-h1{
+
+h1 {
     font-weight: bold;
     text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+.barre-haut li a {
+    color: white;
+    text-decoration: none;
+    text-align: center;
+}
+
+li a {
+    font-size: 30px;
+    font-weight: bold;
 }
