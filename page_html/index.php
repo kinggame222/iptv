@@ -12,25 +12,27 @@
 </head>
 
 <body>
-    
+
     <!-- la barre de navigation debut-->
     <nav class="navbar navbar-expand-md navbar-dark bg-dark container">
         <div class="container-fluid">
-            <a class="navbar-brand" href="index.html">IPTV</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <a class="navbar-brand" href="index.php">IPTV</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="index.html">HOME</a>
+                        <a class="nav-link active" aria-current="page" href="index.php">HOME</a>
                     </li>
+
+                    <?php echo "yo antoine" ?>
+
                     <li class="nav-item">
                         <a class="nav-link" href="#">CATEGORIES</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="YOUTUBE.html">YOUTUBE</a>
+                        <a class="nav-link" href="YOUTUBE.php">YOUTUBE</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link disabled">RANDOM</a>
