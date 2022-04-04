@@ -25,9 +25,6 @@
                     <li class="nav-item">
                         <a class="nav-link active" aria-current="page" href="index.php">HOME</a>
                     </li>
-
-                    <?php echo "yo antoine" ?>
-
                     <li class="nav-item">
                         <a class="nav-link" href="#">CATEGORIES</a>
                     </li>
@@ -50,6 +47,9 @@
     <!-- la barre de navigation fin-->
     <div class="container" id="fond">
         <h1>IPTV</h1>
+        <video width="352" height="198" controls>
+            <source src="https://iptv-org.github.io/iptv/countries/ca.m3u" type="application/x-mpegURL">
+        </video>
     </div>
     <!-- copyright-->
     <footer class="copyright fixed-bottom container">Copyright © 2022 Antoine et William . Tous droits réservés</footer>
