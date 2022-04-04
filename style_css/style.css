@@ -1,19 +1,15 @@
-.copyright {
-    background-color: black;
-    color: white;
-    text-align: center;
-    font-weight: bold;
-}
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
 
-body, html {
-    background: radial-gradient(circle at 100%, #222, #333 50%, #666 75%);
+.copyright {
+    background-color: #007B60;
     color: white;
-    font-family: "Myriad Pro", Myriad, "Liberation Sans", "Nimbus Sans L", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-align: right;
 }
 
 h1 {
     font-weight: bold;
     text-align: center;
+    color: #007B60;
 }
 
 ul {
@@ -24,11 +20,24 @@ ul {
     justify-content: space-between;
 }
 
-/*barre haut*/
-.barre-haut li a {
-    color: white;
-    text-decoration: none;
-    text-align: center;
-    font-size: 30px;
-    font-weight: bold;
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.75em;
+    font-size: 16px;
+    background-color: #555;
+    color: #aaa;
+}
+
+a[href]:hover {
+    color: #3ba0e6;
+}
+
+#fond{
+    background-color: #eee;
+    display: block;
+    min-height: 100%;
+    height: 100%;
+}
+html, body {
+    height: 100%;
 }
