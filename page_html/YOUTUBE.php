@@ -11,6 +11,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
     <link rel="stylesheet" href="../style_css/style.css" />
     <script src="../script_js/script_video_yt.js"></script>
+    <script data-main="scripts/app" src="require.js"></script>
   </head>
 
   <body>
