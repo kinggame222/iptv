@@ -49,11 +49,5 @@ function d() {
 }
 
 function effacer_video() {
-  document.getElementById("vid").src = " ";
-  let jsonFile = require(['jsonfile']);
-
-
-  for (i = 0; i < 11; i++) {
-      jsonFile.writeFile('data.json', "id :" + i + " square :" + i * i);
-  }
+ 
 }

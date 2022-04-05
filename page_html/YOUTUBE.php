@@ -1,3 +1,4 @@
+<?php require("../script php\script.php") ?>
 <!DOCTYPE html>
 <html lang="fr">
 
@@ -8,8 +9,8 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" />
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
     <link rel="stylesheet" href="../style_css/style.css" />
-    <script src="../script_js/script_video_yt.js"></script>
-    <script data-main="scripts/app" src="require.js"></script>
+
+
 </head>
 
 <body>
@@ -45,54 +46,36 @@
         </div>
     </nav>
     <!-- la barre de navigation fin-->
+    <form action="" method="post">
+        <h3>Contact us</h3>
+        <label>Enterr un url</label>
+        <input type="text" name="url" value="">
 
+        <label>entrer un id de video</label>
+        <input type="number" name="Nb_video" value="">
+
+        <label>entrer le nom de la video</label>
+        <input type="text" name="nom" value="">
+
+        <input type="submit" name="submit" value="Send message">
+
+    </form>
     <h1>YOUTUBE</h1>
-    <from action=""  method = "post">
+    <from action="" method="post">
 
         <div class="row" align="center">
             <div class="col-6">
-                <div>
-                    <!--bouton ajouter une video-->
-                    <input type="button" value="ajouter un url" onclick="d()" placeholder="boutton" />
-                </div>
-                <br />
-                <div>
-                    <!-- #de place de la video-->
-                    <input type="number" id="NB_video" placeholder="#de tab" value="" min="0" scrolling="no" />
-                </div>
-                <br />
-                <div>
-                    <!-- url yt a ajouter -->
-                    <input type="text" id="NB_video2" placeholder="url youtube " />
-                </div>
-                <br />
-                <div>
-                    <!-- url yt a ajouter -->
-                    <input type="button" id="ajouter_vid" placeholder="url youtube " onclick="video_afficher_video()" />
-                </div>
-            </div>
-            <div class="col-6">
-                <div>
-                    <!--bouton ajouter une video-->
-                    <input type="button" value="ajouter un url" onclick="d()" placeholder="boutton" />
-                </div>
-                <br />
-                <div>
-                    <!-- #de place de la video-->
-                    <input type="number" id="NB_video" placeholder="#de tab" value="" />
-                </div>
-            </div>
-        </div>
-        <div align="center">
+                
+
+            <div align="center">
             <iframe id="vid" width="560" height="315" src="https:www.youtube.com/embed/dQw4w9WgXcQ?autoplay=1 " title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
             </iframe>
             <div>
                 <!-- boutton effacer vid-->
+               
                 <input type="button" id="effacer_video" value="effacer la video youtube " onclick="effacer_video()" />
             </div>
         </div>
-        <input type="submit" name="valider" value="OK">
-    </from>
     <!-- copyright-->
     <footer class="copyright fixed-bottom">
         Copyright © 2022 Antoine et William . Tous droits réservés
