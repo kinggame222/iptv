@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="../style_css/style.css" />
 
 
+
 </head>
 
 <body>
@@ -68,7 +69,7 @@
                 
 
             <div align="center">
-            <iframe id="vid" width="560" height="315" src="https:www.youtube.com/embed/dQw4w9WgXcQ?autoplay=1 " title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+            <iframe id="vid" width="560" height="315" src="https:www.youtube.com/embed/16y1AkoZkmQ?autoplay=1 " title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
             </iframe>
             <div>
                 <!-- boutton effacer vid-->

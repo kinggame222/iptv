@@ -27,9 +27,5 @@ if (isset($_POST['submit'])) {
     } else {
         $success =  "Message is stored successfully";
     }
-    $str = file_get_contents('vyt.json');
-    $json = json_decode($str, true);
-    echo '<pre>' . print_r($json, true) . '</pre>';
 }
-
 ?>
