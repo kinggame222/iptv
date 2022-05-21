@@ -1,14 +1,11 @@
 
-
-
-
 <?php
 if (isset($_POST['submit'])) {
 
     $new_message = array(
-        "numeros de la video" => $_POST['Nb_video'],
-        "url" => $_POST['url'],
-        "nom de la video" => $_POST['nom']
+        "Titre de la vidéo" => $_POST['Nb_video'],
+        "Vidéo" => $_POST['url'],
+        
     );
 
     if (filesize("vyt.json") == 0) {

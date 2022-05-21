@@ -9,9 +9,6 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" />
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
     <link rel="stylesheet" href="../style_css/style.css" />
-
-
-
 </head>
 
 <body>
@@ -49,6 +46,7 @@
     <!-- la barre de navigation fin-->
     <form action="" method="post">
         <h3>Contact us</h3>
+
         <label>Enterr un url</label>
         <input type="text" name="url" value="">
 
@@ -63,24 +61,20 @@
     </form>
     <h1>YOUTUBE</h1>
     <from action="" method="post">
-
         <div class="row" align="center">
             <div class="col-6">
-                
-
-            <div align="center">
-            <iframe id="vid" width="560" height="315" src="https:www.youtube.com/embed/16y1AkoZkmQ?autoplay=1 " title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
-            </iframe>
-            <div>
-                <!-- boutton effacer vid-->
-               
-                <input type="button" id="effacer_video" value="effacer la video youtube " onclick="effacer_video()" />
-            </div>
-        </div>
-    <!-- copyright-->
-    <footer class="copyright fixed-bottom">
-        Copyright © 2022 Antoine et William . Tous droits réservés
-    </footer>
+                <div align="center">
+                    <iframe id="vid" width="560" height="315" src=" " title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                    </iframe>
+                    <div>
+                        <!-- boutton effacer vid-->
+                        <input type="button" id="effacer_video" value="effacer la video youtube " onclick="effacer_video()" />
+                    </div>
+                </div>
+                <!-- copyright-->
+                <footer class="copyright fixed-bottom">
+                    Copyright © 2022 Antoine et William . Tous droits réservés
+                </footer>
 </body>
 
 </html>

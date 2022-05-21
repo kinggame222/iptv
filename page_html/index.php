@@ -12,7 +12,6 @@
 </head>
 
 <body>
-
     <!-- la barre de navigation debut-->
     <nav class="navbar navbar-expand-md navbar-dark bg-dark container">
         <div class="container-fluid">
